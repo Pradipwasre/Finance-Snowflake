@@ -1,0 +1,28 @@
+# ============================================================
+# Requirements for: Snowflake + Python + ML Project
+# Install with: pip install -r requirements.txt
+# ============================================================
+
+# Snowflake connector (with pandas support built in)
+snowflake-connector-python[pandas]
+snowflake-connector-python
+pandas
+notebook
+ipykernel
+# Data handling
+pandas
+numpy
+
+# Quick stats / EDA
+matplotlib
+seaborn
+
+# ML (used in upcoming Statistics/ML sessions)
+scikit-learn
+
+# Jupyter (to run the .ipynb file in VS Code)
+notebook
+ipykernel
+
+# Optional: for local secrets via .env (alternative to connections.toml)
+python-dotenv
